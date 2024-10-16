@@ -49,6 +49,9 @@ $ anvil
 
 ```shell
 $ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+
+$ forge test --fork-url https://mainnet.infura.io/v3/9a36ca959f654f67b5cfbbea5f07d18f --match-path test/UniswapV3SushiswapFlashloanArbitrage.t.sol -vvvv
+
 ```
 
 ### Cast
